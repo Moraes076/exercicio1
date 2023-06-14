@@ -1,20 +1,19 @@
-let frutas = 'maca'
+let fruta = prompt("Fruta: ")
 
-switch (frutas) {
-case 'maca':
-console.log('não vendemos essa fruta aqui')
-break;
+switch (fruta) {
+    case "maçã":
+        alert ("Não vendemos esta fruta aqui")
+        break;
 
-case 'kiwi':
-console.log('estamos com escassez de kiwi')
-break;
+    case "kiwi":
+        alert ("Estamos com escassez de kiwis")
+        break;
 
-case 'melancia':
-console.log ('Aqui está, são 3 reais o quilo')
-break;
+    case "melancia":
+        alert ("Aqui está, são 3 reais o quilo")
+        break;
 
-default:
-console.log('erro na escolha..')
-break;
-
+    default:
+        alert ("Seleção errada tente novamente.")
+        break;
 }
